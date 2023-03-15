@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+#back{
+	width: 2.5em;
+	height: 2.5em;
+	position: relative;
+	left: 3em;
+	top: 3em;
+	float: left;
+	background-color: #415f63;
+	border: 0.2em solid #415f63;
+	border-radius: 5em;
+	box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+	transition: 0.3s;
+}
+#back:hover{
+	transform: scale(1.2);
+}
+
+#footer{
+	padding-bottom: 3em;
+	margin-top: 5em;
+}
+#footer a{
+	width: 10em;
+	background-color: #415f63;
+	font-family: 'Poppins', Verdana, Arial;
+	color: white;
+	padding: 0.5em 1em;
+	margin: 5em 3em;
+	border: 0.15em solid #415f63;
+	text-decoration: none;
+	border-radius: 4em;
+	transition: 0.3s;
+}
+
+#footer a:hover{
+	background-color: white;
+	color: black;
+}
+
+#gallery{
+	height: 54vh;
+	width: 64.5vw;
+	margin: auto;
+	margin-bottom: 5em;
+	background-color: #eeeeee;
+	display: block;
+}
+
+#gallery img{
+	width: 20vw;
+	height: 50vh;
+	margin: .5em;
+	object-fit: cover;
+	transition: 0.2s ease-in-out;
+}
+
+#gallery img:hover{
+	transform: scale(1.1)
+}

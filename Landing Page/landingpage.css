@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+
+body{
+	padding: 0px;
+	margin: 0px;
+}
+
+#header {
+	margin-bottom: 5em;
+}
+
+#header h2{
+	font-family: 'Poppins', Verdana, Arial, Sans-serif;
+	font-size: 1.75em;
+	color: black;
+	float: left;
+	margin-top: 0;
+}
+
+#bg {
+	width: 100vw;
+	height: 75vh;
+	object-fit: cover;
+}
+#alpha{
+	width: 100vw;
+	height: 75vh;
+	background-color: rgba(0, 0, 0, 0.15);
+	position: absolute;
+	top: 0px;
+}
+
+#links{
+	position: absolute;
+	top: 1em;
+	right: 3em;
+}
+
+#links a{
+	font-family: 'Poppins Light', Arial, Sans-serif;
+	margin-right: 1em;
+	text-decoration: none;
+	color: white;
+	transition: 0.3s;
+}
+
+#links a:hover{
+	color: #333;
+}
+
+#body_p{
+	position: absolute;
+	top: 18vh;
+	left: 40vw;
+	width: 40vw;
+}
+
+#body_p h2{
+	font-family: 'Poppins', Arial, Verdana, Sans-serif;
+	font-size: 4em;
+	color: #333;
+	display: block;
+}
+#body_p h1 {
+	font-family: 'Poppins', Arial, Verdana, Sans-serif;
+	font-size: 6em;
+	color: white;
+	position: absolute;
+	margin-top: 1.1em;
+	line-height: 0.80em;
+}
+
+#body_p p{
+	font-family: 'Poppins Light';
+	font-size: 1em;
+	color: #EDEFEF;
+	display: block;
+	position: absolute;
+	top: 14em;
+}
+
+#content{
+	position: absolute;
+	display: block;
+	width: 100vw;
+	height: 50vh;
+	margin-bottom: 10em;
+	margin: auto;
+}
+
+#content_box {
+	overflow-wrap: anywhere;
+}
+#content_box a{
+	text-decoration: none;
+	font-family: Poppins, Verdana, Arial;
+	color: #333;
+	width: 15vw;
+	background-color: white;
+	box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+	display: inline-block;
+	margin-right: 2em;
+	padding: 2em;
+	position: relative;
+	float: left;
+	border-radius: 1em;
+	transition: all .2s ease-in-out;
+	height: 45vh;
+}
+
+#content_box img{
+	width: 5vw;
+	margin: 1.5em auto;
+	display: block;
+}
+
+#content_box a:hover{
+	transform: scale(1.1);
+}
+
+#footer{
+	padding-bottom: 3em;
+	margin-top: 5em;
+	position: absolute;
+	top: 140vh;
+}
+#footer a{
+	width: 10em;
+	background-color: #415f63;
+	font-family: 'Poppins', Verdana, Arial;
+	color: white;
+	padding: 0.5em 1em;
+	margin: 5em 3em;
+	border: 0.15em solid #415f63;
+	text-decoration: none;
+	border-radius: 4em;
+	transition: 0.3s;
+}
+
+#footer a:hover{
+	background-color: white;
+	color: black;
+}

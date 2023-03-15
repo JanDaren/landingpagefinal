@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+html{
+	scroll-behavior: smooth;
+	scroll-snap-type: x mandatory;
+}
+body{
+	padding: 0px;
+	margin: 0px;
+}
+
+#gallery_main{
+	margin: 0px;
+	position: relative;
+}
+
+#gallery_main img{
+	width: 100vw;
+	height: 75vh;
+	margin: auto;
+	object-fit: cover;
+}
+
+#alpha{
+	width: 100vw;
+	height: 75vh;
+	background-color: rgba(0, 0, 0, 0.15);
+	position: absolute;
+	top: 0px;
+}
+
+#gallery_main h1{
+	font-family: 'Poppins', sans-serif;
+	position: absolute;
+	color: white;
+	font-size: 8em;
+	top: 20%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+#button{
+	width: 100vw;
+	position: absolute;
+	top: 77.5%;
+	text-align: center;
+}
+
+#button a{
+	text-decoration: none;
+	font-family: 'Poppins Light';
+	padding: 0.2em 1em;
+	font-size: 0.9em;
+	margin: 0.25em;
+	color: white;
+	transition: 0.3s ease-in-out;
+	border: 0.1em solid #415f63;
+	border-radius: 1em;
+	background-color: #415f63;
+}
+
+#button a:hover{
+	background-color: transparent;
+	color: black;
+}
+#gallery{
+	width: 85vw;
+	overflow-x: hidden;
+	position: absolute;
+	top: 77.5%;
+	left: 50%;
+	margin-top: -3em;
+	padding: 1em 0em 1em 1em;
+	transform: translateX(-50%)
+}
+
+#gallery_holder{
+	width: 492vw;
+	margin: auto;
+	margin-bottom: 5em;
+	display: block;
+	
+}
+#box1{
+	width: 85vw;
+	display: inline-block;
+	float: left;
+}
+#gallery_holder img{
+	width: 20vw;
+	height: 50vh;
+	margin-right: .5em;
+	margin-bottom: .5em;
+	object-fit: cover;
+	transition: 0.2s ease-in-out;
+}
+
+#gallery img:hover{
+	transform: scale(1.1)
+}
+
+#box2{
+	width: 85vw;
+	display: inline-block;
+	float: left;
+	
+}
+#box3{
+	width: 85vw;
+	display: inline-block;
+	float: left;
+	
+}
+#box4{
+	width: 85vw;
+	display: inline-block;
+	float: left;
+}
